@@ -4,19 +4,10 @@
     margin: 0.5rem;
 }
 
-.cadastrar {
+.mais {
     background-color: forestgreen;
 }
 
-.editar {
-    background-color: coral;
-}
-.listar {
-    background-color: coral;
-}
-.excluir {
-    background-color: coral;
-}
-.cancelar {
+.menos {
     background-color: coral;
 }

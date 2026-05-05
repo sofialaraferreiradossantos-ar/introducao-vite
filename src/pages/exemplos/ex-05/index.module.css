@@ -1,48 +1,13 @@
 .container {
-  background-color: #e9ecef;
-  padding: 20px;
-  width: 600px;
-  margin: 40px auto;
-  border-radius: 6px;
-  font-family: Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    height: 97vh;
 }
 
-.botoes {
-  display: flex;
-  gap: 10px;
-  margin-top: 15px;
-}
-
-.btn {
-  border: none;
-  padding: 10px 16px;
-  color: white;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-/* Cores iguais da imagem */
-.cadastrar {
-  background-color: #28a745; /* verde */
-}
-
-.editar {
-  background-color: #17a2b8; /* azul */
-}
-
-.listar {
-  background-color: #fd7e14; /* laranja */
-}
-
-.excluir {
-  background-color: #dc3545; /* vermelho */
-}
-
-.cancelar {
-  background-color: #6c757d; /* cinza */
-}
-
-.btn:hover {
-  opacity: 0.85;
+.formulario {     
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 5rem;
+    max-width: 40rem;
 }

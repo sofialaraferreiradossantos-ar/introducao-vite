@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+h2 {
+  color: #8b0000;
+  margin-bottom: 20px;
+}
+
+/* Linha do formulário */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-qtd {
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-produto {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Botão */
+button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Lista */
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Item */
+.item {
+  background-color: #eaeaea;
+  padding: 12px;
+  border-radius: 15px;
+}
