@@ -20,7 +20,7 @@ function Atividade04() {
 
   return (
     <div className="container">
-      <h2>Atividade 4 - Lista de compra</h2>
+      <h2>Atividade 4 </h2>
 
       <div className="form">
         <input
