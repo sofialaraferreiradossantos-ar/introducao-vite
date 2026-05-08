@@ -1,66 +1,74 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-}
-
 .container {
-  width: 500px;
-  margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
 }
 
-h2 {
-  color: #8b0000;
-  margin-bottom: 20px;
+.card {
+    background: #ffffff;
+    width: 650px;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Linha do formulário */
-.form {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+.card h1 {
+    color: #8b0000;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-/* Inputs */
-.input-qtd {
-  width: 80px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+.formulario {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
-.input-produto {
-  flex: 1;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+.formulario input {
+    height: 55px;
+    border: 2px solid #ddd;
+    border-radius: 14px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    outline: none;
 }
 
-/* Botão */
-button {
-  background-color: #8b0000;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: bold;
-  border: 2px solid black;
+.inputQtd {
+    width: 90px;
 }
 
-button:hover {
-  opacity: 0.9;
+.inputProduto {
+    flex: 1;
 }
 
-/* Lista */
+.formulario button {
+    background-color: #990000;
+    color: white;
+    border: 3px solid #111;
+    border-radius: 16px;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.formulario button:hover {
+    transform: scale(1.03);
+}
+
 .lista {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-/* Item */
 .item {
-  background-color: #eaeaea;
-  padding: 12px;
-  border-radius: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
